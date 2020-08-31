@@ -20,7 +20,8 @@ Entretanto alguns tópicos apresentados em sala deverão ser utilizados na const
 
 * Requisitos mínimos gerais:
 
-    * A página deve conter no mínimo a seguinte estrutura:
+    A página deve conter no mínimo a seguinte estrutura:
+    
         *	Uma homepage, apresentando o site ou a funcionalidade principal da plataforma.
         *	Uma página de “Quem somos e o que fazemos” (About).
         *	Uma página de Contato com algumas possíveis informações:
