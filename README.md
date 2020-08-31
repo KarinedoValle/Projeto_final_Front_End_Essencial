@@ -19,7 +19,7 @@ Entretanto alguns tópicos apresentados em sala deverão ser utilizados na const
      
 
 
-1. Requisitos mínimos gerais:
+*1.* Requisitos mínimos gerais:
 
 A página deve conter no mínimo a seguinte estrutura:
 
@@ -34,7 +34,7 @@ OBS: Caso o site seja feito em estrutura de onepage (página única), deverá el
      
 
 
-2. Requisitos mínimos de funcionalidades:
+*2.* Requisitos mínimos de funcionalidades:
 
 A plataforma deve utilizar no mínimo as seguintes estruturas:
 
@@ -56,7 +56,7 @@ A plataforma deve utilizar no mínimo as seguintes estruturas:
      
 
 
-3. Extras:
+*3.* Extras:
 
 Algumas implementações receberão pontuações extras caso o site seja implementado com, ou possua:
 
@@ -72,9 +72,9 @@ Algumas implementações receberão pontuações extras caso o site seja impleme
 -	Utilizar arrow function com algum propósito no site
 
      
-     
 
-4. Entrega:
+
+*4.* Entrega:
 
     -	Até quinta-feira dia 03/09/2020 às 8:00
     -	Apresentação 20 minutos por grupo
