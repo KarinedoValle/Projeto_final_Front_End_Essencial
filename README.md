@@ -22,11 +22,11 @@ Entretanto alguns tópicos apresentados em sala deverão ser utilizados na const
 
 A página deve conter no mínimo a seguinte estrutura:
 
-    -	Uma homepage, apresentando o site ou a funcionalidade principal da plataforma.
-    -	Uma página de “Quem somos e o que fazemos” (About).
-    -	Uma página de Contato com algumas possíveis informações:
-        *	Link para as redes sociais.
-        *	Link para a localização no google maps, por exemplo. 
+-	Uma homepage, apresentando o site ou a funcionalidade principal da plataforma.
+-	Uma página de “Quem somos e o que fazemos” (About).
+-	Uma página de Contato com algumas possíveis informações:
+    *	Link para as redes sociais.
+    *	Link para a localização no google maps, por exemplo. 
 
 OBS: Caso o site seja feito em estrutura de onepage (página única), deverá ele conter a estrurura acima citada (homepage, quem somos, o que fazemos e contato) e também os requisitos abaixo.  A sessão home deverá ter altura e largura total da viewport (Dica: Buscar por sessões fullscreen, utilize vh/vw).
 
@@ -36,20 +36,20 @@ OBS: Caso o site seja feito em estrutura de onepage (página única), deverá el
 
 A plataforma deve utilizar no mínimo as seguintes estruturas:
 
-    -	Utilizar três ou mais componentes Bootstrap, tais como:
-        *	Implementar uma apresentação em carrossel.
-        *	Utilizar a barra de navegação.
-        *	Botões.
-        *	Formulários.
-    -	Realizar alguma validação de campos, utilizando funcionalidades do ES6.
-    -	Responsividade
-        *	Pode ser feita utilizando o grid responsivo do bootstrap, media queries ou alguma outra técnica para tornar o site responsivo. 
-    -	Utilizar três ou mais tags e funcionalidades do HTML5, como exemplo:
-        *	Header.
-        *	Footer.
-        *	Placeholder.
-        *	Type='email'.
-    -	Alterar algum estilo CSS manipulando o DOM.
+-	Utilizar três ou mais componentes Bootstrap, tais como:
+    *	Implementar uma apresentação em carrossel.
+    *	Utilizar a barra de navegação.
+    *	Botões.
+    *	Formulários.
+-	Realizar alguma validação de campos, utilizando funcionalidades do ES6.
+-	Responsividade
+    *	Pode ser feita utilizando o grid responsivo do bootstrap, media queries ou alguma outra técnica para tornar o site responsivo. 
+-	Utilizar três ou mais tags e funcionalidades do HTML5, como exemplo:
+    *	Header.
+    *	Footer.
+    *	Placeholder.
+    *	Type='email'.
+-	Alterar algum estilo CSS manipulando o DOM.
 
      
 
@@ -57,16 +57,16 @@ A plataforma deve utilizar no mínimo as seguintes estruturas:
 
 Algumas implementações receberão pontuações extras caso o site seja implementado com, ou possua:
 
-    -	Boas práticas em acessibilidade
-    -	Tela de login com alguma validação como:
-        *	Logar um usuário com informações mockadas 
-        *	Alterar alguma informação na página em função do nome do usuário passado no login
-    -	Utilizar algum método auxiliar para Arrays
-    -	Utilizar template strings
-    -	Utilizar pattern em um input de formulário
-    -	Um banner rotativo usando Javascript
-    -	Publicar no [Heroku](https://www.heroku.com/) (Dica: [Medium](https://medium.com/@agavitalis/how-to-deploy-a-simple-static-html-website-on-heroku-492697238e48))
-    -	Utilizar arrow function com algum propósito no site
+-	Boas práticas em acessibilidade
+-	Tela de login com alguma validação como:
+    *	Logar um usuário com informações mockadas 
+    *	Alterar alguma informação na página em função do nome do usuário passado no login
+-	Utilizar algum método auxiliar para Arrays
+-	Utilizar template strings
+-	Utilizar pattern em um input de formulário
+-	Um banner rotativo usando Javascript
+-	Publicar no [Heroku](https://www.heroku.com/) (Dica: [Medium](https://medium.com/@agavitalis/how-to-deploy-a-simple-static-html-website-on-heroku-492697238e48))
+-	Utilizar arrow function com algum propósito no site
 
      
 
