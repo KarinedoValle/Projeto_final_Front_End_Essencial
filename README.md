@@ -51,16 +51,16 @@ A plataforma deve utilizar no mínimo as seguintes estruturas:
 
 * Extras
 Algumas implementações receberão pontuações extras caso o site seja implementado com, ou possua:
-        *	Boas práticas em acessibilidade
-        *	Tela de login com alguma validação como:
-            *	Logar um usuário com informações mockadas 
-            *	Alterar alguma informação na página em função do nome do usuário passado no login
-        *	Utilizar algum método auxiliar para Arrays
-        *	Utilizar template strings
-        *	Utilizar pattern em um input de formulário
-        *	Um banner rotativo usando Javascript
-        *	Publicar no [Heroku](https://www.heroku.com/) (Dica: [Medium](https://medium.com/@agavitalis/how-to-deploy-a-simple-static-html-website-on-heroku-492697238e48))
-        *	Utilizar arrow function com algum propósito no site
+    *	Boas práticas em acessibilidade
+    *	Tela de login com alguma validação como:
+        *	Logar um usuário com informações mockadas 
+        *	Alterar alguma informação na página em função do nome do usuário passado no login
+    *	Utilizar algum método auxiliar para Arrays
+    *	Utilizar template strings
+    *	Utilizar pattern em um input de formulário
+    *	Um banner rotativo usando Javascript
+    *	Publicar no [Heroku](https://www.heroku.com/) (Dica: [Medium](https://medium.com/@agavitalis/how-to-deploy-a-simple-static-html-website-on-heroku-492697238e48))
+    *	Utilizar arrow function com algum propósito no site
 
      
 
