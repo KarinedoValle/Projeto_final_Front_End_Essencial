@@ -20,12 +20,12 @@ Entretanto alguns tópicos apresentados em sala deverão ser utilizados na const
 
 * Requisitos mínimos gerais:
 
-A página deve conter no mínimo a seguinte estrutura:
-    *	Uma homepage, apresentando o site ou a funcionalidade principal da plataforma.
-    *	Uma página de “Quem somos e o que fazemos” (About).
-    *	Uma página de Contato com algumas possíveis informações:
-        *	Link para as redes sociais.
-        *	Link para a localização no google maps, por exemplo. 
+    * A página deve conter no mínimo a seguinte estrutura:
+        *	Uma homepage, apresentando o site ou a funcionalidade principal da plataforma.
+        *	Uma página de “Quem somos e o que fazemos” (About).
+        *	Uma página de Contato com algumas possíveis informações:
+            *	Link para as redes sociais.
+            *	Link para a localização no google maps, por exemplo. 
 
 OBS: Caso o site seja feito em estrutura de onepage (página única), deverá ele conter a estrurura acima citada (homepage, quem somos, o que fazemos e contato) e também os requisitos abaixo.  A sessão home deverá ter altura e largura total da viewport (Dica: Buscar por sessões fullscreen, utilize vh/vw).
 
