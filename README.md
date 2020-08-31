@@ -18,6 +18,7 @@ Entretanto alguns tópicos apresentados em sala deverão ser utilizados na const
 
      
 
+
 1. Requisitos mínimos gerais:
 
 A página deve conter no mínimo a seguinte estrutura:
@@ -31,6 +32,7 @@ A página deve conter no mínimo a seguinte estrutura:
 OBS: Caso o site seja feito em estrutura de onepage (página única), deverá ele conter a estrurura acima citada (homepage, quem somos, o que fazemos e contato) e também os requisitos abaixo.  A sessão home deverá ter altura e largura total da viewport (Dica: Buscar por sessões fullscreen, utilize vh/vw).
 
      
+
 
 2. Requisitos mínimos de funcionalidades:
 
@@ -53,6 +55,7 @@ A plataforma deve utilizar no mínimo as seguintes estruturas:
 
      
 
+
 3. Extras:
 
 Algumas implementações receberão pontuações extras caso o site seja implementado com, ou possua:
@@ -68,6 +71,7 @@ Algumas implementações receberão pontuações extras caso o site seja impleme
 -	Publicar no [Heroku](https://www.heroku.com/) (Dica: [Medium](https://medium.com/@agavitalis/how-to-deploy-a-simple-static-html-website-on-heroku-492697238e48))
 -	Utilizar arrow function com algum propósito no site
 
+     
      
 
 4. Entrega:
