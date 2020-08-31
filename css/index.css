@@ -1,17 +1,17 @@
     .carousel-item {
-        width:100%;
+        width: 100%;
         height: auto;
         /* dar zoom quando passa o mouse */
     }
 
-    #carrosel{
-        
+    #carrosel {
+
         float: left;
         left: 10%;
 
     }
 
-    body{
+    body {
         font-size: 20px;
     }
 
@@ -19,62 +19,140 @@
         display: block;
     }
 
-    
+
     .departamentos li ul {
         display: none;
 
     }
-    .departamentos nav{
+
+    .departamentos nav {
         left: -18%;
     }
 
-    .departamentos{
+    .departamentos {
         margin-left: 5%;
         float: left;
         margin-right: 10px;
         width: 230px;
-        
+
     }
 
-    header{
-        position: relative;
-        display: block;
-        align-content: center;
-    }
-
-    nav{
-        position: relative;
-        padding-top: 5%;
-        top: 50%;
-        bottom: 10%;
-        right: 10%;
-        left: 10%;
-       
-    }
-     
-    nav li{
+    nav li {
         display: inline;
-        padding: 2% 2% 2% 2%;
+        padding-top: 2% 2% 2% 2%;
     }
 
-    header h1{
+    header h1 {
         display: block;
         position: relative;
         text-align: center;
         align-content: center;
-       
-        
+
+
     }
 
+    #divcontato {
+        float: right;
+    }
+
+
     /* quem somos  */
-    
-    p{
+
+    p {
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 2%;
         text-align: justify;
         text-indent: 3%;
-        
+
     }
 
-    
+    /* teste de alinhamento */
+    header {
+        width: 100%;
+        position: static;
+        display: block;
+        align-content: center;
+        background-color: #101e42;
+    }
+
+    .he2 figure {
+        background-color: #101e42;
+    }
+
+    .he2 nav {
+        position: static;
+        align-content: center;
+    }
+
+
+
+
+    @media (max-width: 575px) {
+        h1 {
+            text-align: center;
+            margin-right: 0;
+        }
+
+        .he2 nav {
+            align-content: center;
+            text-align: center;
+        }
+
+        .he2 {
+            align-content: center;
+            text-align: center;
+        }
+
+        .text-sm-left {
+            text-align: left !important;
+        }
+
+        .text-sm-right {
+            text-align: right !important;
+        }
+
+        .text-sm-center {
+            text-align: center !important;
+        }
+    }
+
+    /* teste de alinhamento */
+
+    .pause,
+    .play {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 15px;
+    }
+
+    .pause {
+        border-left: 10px solid #900;
+        border-right: 10px solid #900;
+        height: 30px;
+        width: 5px;
+    }
+
+    .play {
+        border-left: 25px solid #900;
+        border-bottom: 15px solid transparent;
+        border-top: 15px solid transparent;
+    }
+
+.container{
+    float: left;
+    align-content: center;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2%;
+    width: 50%;
+}
+.container li{
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin: 2%;
+    padding-bottom: 10%;
+}
