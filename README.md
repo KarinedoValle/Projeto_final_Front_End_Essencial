@@ -62,23 +62,25 @@ A plataforma deve utilizar no mínimo as seguintes estruturas:
 * Extras
 
 Algumas implementações receberão pontuações extras caso o site seja implementado com, ou possua:
-    -	Boas práticas em acessibilidade
+    *	Boas práticas em acessibilidade
 
-    -	Tela de login com alguma validação como:
+    *	Tela de login com alguma validação como:
         *	Logar um usuário com informações mockadas 
         *	Alterar alguma informação na página em função do nome do usuário passado no login
 
-    -	Utilizar algum método auxiliar para Arrays
+    *	Utilizar algum método auxiliar para Arrays
 
-    -	Utilizar template strings
+    *	Utilizar template strings
 
-    -	Utilizar pattern em um input de formulário
+    *	Utilizar pattern em um input de formulário
 
-    -	Um banner rotativo usando Javascript
+    *	Um banner rotativo usando Javascript
 
-    -	Publicar no [Heroku](https://www.heroku.com/) (Dica: [Medium](https://medium.com/@agavitalis/how-to-deploy-a-simple-static-html-website-on-heroku-492697238e48))
+    *	Publicar no [Heroku](https://www.heroku.com/) (Dica: [Medium](https://medium.com/@agavitalis/how-to-deploy-a-simple-static-html-website-on-heroku-492697238e48))
 
-    -	Utilizar arrow function com algum propósito no site
+    *	Utilizar arrow function com algum propósito no site
+
+    
 
 * Entrega
     -	Até quinta-feira dia 03/09/2020 às 8:00
