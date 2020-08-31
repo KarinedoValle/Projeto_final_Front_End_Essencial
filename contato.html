@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Hero Company</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row align-items-center text-center text-md-center">
+                <div class="col-6 col-sm-6 col-lg-6">
+                    <img src="/img/logo.png" alt="Logo da Hero Company">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row align-items-center text-center text-md-center">
+                <div class="col-6 col-sm-6 col-lg-6">
+                    <nav>
+                        <ul>
+                            <li><a href="quem-somos.html">Quem somos</a></li>
+                            <li><a href="index.html">Produtos</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <h1>Contato</h1>
+    </header>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quod fugit animi, repellendus labore sint deserunt
+        iusto ad asperiores ipsa eum obcaecati rerum architecto cum illo at veniam non vel.</p>
+
+    <!-- colocar um formulario para que entrem em contato aqui -->
+    <form class="col-md-8 	col-xl-9">
+        <div class="row">
+            <fieldset class="col-lg-6">
+                <legend>Fale conosco.</legend>
+                <div class="form-group">
+                    <label for="nome">Nome completo</label>
+                    <!-- <input type="text" class="form-control" id="nome" name="nome"> -->
+                    <input type="text" required="true" class="form-control" id="nome" name="nome" autofocus>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">@</span>
+                        <!-- <input type="email" class="form-control" id="email" name="email"> -->
+                        <input type="email" class="form-control" required = "true" id="email" name="email"
+                            placeholder="email@exemplo.com">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for=contato></label>
+                    <textarea name="contato" id="contato" required = "true"  cols="58" rows="10" placeholder="Digite sua mensagem."></textarea>
+
+                </div>
+        </div>
+        
+        <button type="submit" class="btn	btn-primary 	btn-lg">
+            <span class="oi	oi-thumb-up"></span>
+            Enviar
+        </button>
+
+    </form>
+    </div>
+    </div>
+
+
+</body>
+
+</html>

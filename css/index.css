@@ -1,0 +1,80 @@
+    .carousel-item {
+        width:100%;
+        height: auto;
+        /* dar zoom quando passa o mouse */
+    }
+
+    #carrosel{
+        
+        float: left;
+        left: 10%;
+
+    }
+
+    body{
+        font-size: 20px;
+    }
+
+    .departamentos li:hover ul {
+        display: block;
+    }
+
+    
+    .departamentos li ul {
+        display: none;
+
+    }
+    .departamentos nav{
+        left: -18%;
+    }
+
+    .departamentos{
+        margin-left: 5%;
+        float: left;
+        margin-right: 10px;
+        width: 230px;
+        
+    }
+
+    header{
+        position: relative;
+        display: block;
+        align-content: center;
+    }
+
+    nav{
+        position: relative;
+        padding-top: 5%;
+        top: 50%;
+        bottom: 10%;
+        right: 10%;
+        left: 10%;
+       
+    }
+     
+    nav li{
+        display: inline;
+        padding: 2% 2% 2% 2%;
+    }
+
+    header h1{
+        display: block;
+        position: relative;
+        text-align: center;
+        align-content: center;
+       
+        
+    }
+
+    /* quem somos  */
+    
+    p{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 2%;
+        text-align: justify;
+        text-indent: 3%;
+        
+    }
+
+    
