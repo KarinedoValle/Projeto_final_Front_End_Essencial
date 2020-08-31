@@ -19,6 +19,7 @@ Entretanto alguns tópicos apresentados em sala deverão ser utilizados na const
      
 
 * Requisitos mínimos gerais:
+
 A página deve conter no mínimo a seguinte estrutura:
     *	Uma homepage, apresentando o site ou a funcionalidade principal da plataforma.
     *	Uma página de “Quem somos e o que fazemos” (About).
@@ -31,6 +32,7 @@ OBS: Caso o site seja feito em estrutura de onepage (página única), deverá el
      
 
 * Requisitos mínimas de funcionalidades:
+
 A plataforma deve utilizar no mínimo as seguintes estruturas:
     *	Utilizar três ou mais componentes Bootstrap, tais como:
         *	Implementar uma apresentação em carrossel.
@@ -49,7 +51,8 @@ A plataforma deve utilizar no mínimo as seguintes estruturas:
 
      
 
-* Extras
+* Extras:
+
 Algumas implementações receberão pontuações extras caso o site seja implementado com, ou possua:
     *	Boas práticas em acessibilidade
     *	Tela de login com alguma validação como:
