@@ -28,7 +28,7 @@ Entretanto alguns tópicos apresentados em sala deverão ser utilizados na const
 
 OBS: Caso o site seja feito em estrutura de onepage (página única), deverá ele conter a estrurura acima citada (homepage, quem somos, o que fazemos e contato) e também os requisitos abaixo.  A sessão home deverá ter altura e largura total da viewport (Dica: Buscar por sessões fullscreen, utilize vh/vw).
 
-
+    
 
 * Requisitos mínimas de funcionalidades:
 - A plataforma deve utilizar no mínimo as seguintes estruturas:
@@ -47,7 +47,7 @@ OBS: Caso o site seja feito em estrutura de onepage (página única), deverá el
         *	Type='email'.
     *	Alterar algum estilo CSS manipulando o DOM.
 
- 
+
 
 * Extras
     - Algumas implementações receberão pontuações extras caso o site seja implementado com, ou possua:
@@ -60,9 +60,10 @@ OBS: Caso o site seja feito em estrutura de onepage (página única), deverá el
         *	Utilizar pattern em um input de formulário
         *	Um banner rotativo usando Javascript
         *	Publicar no [Heroku](https://www.heroku.com/) (Dica: [Medium](https://medium.com/@agavitalis/how-to-deploy-a-simple-static-html-website-on-heroku-492697238e48))
+
         *	Utilizar arrow function com algum propósito no site
 
-
+    
 
 * Entrega
     -	Até quinta-feira dia 03/09/2020 às 8:00
