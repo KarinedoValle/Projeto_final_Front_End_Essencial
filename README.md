@@ -19,8 +19,8 @@ Entretanto alguns tópicos apresentados em sala deverão ser utilizados na const
 <br><br>
 
 
-**1.** Requisitos mínimos gerais:
-
+* Requisitos mínimos gerais:
+<br>
 A página deve conter no mínimo a seguinte estrutura:
 
 -	Uma homepage, apresentando o site ou a funcionalidade principal da plataforma.
@@ -34,8 +34,8 @@ OBS: Caso o site seja feito em estrutura de onepage (página única), deverá el
  <br><br>    
 
 
-**2.** Requisitos mínimos de funcionalidades:
-
+* Requisitos mínimos de funcionalidades:
+<br>
 A plataforma deve utilizar no mínimo as seguintes estruturas:
 
 -	Utilizar três ou mais componentes Bootstrap, tais como:
@@ -56,8 +56,8 @@ A plataforma deve utilizar no mínimo as seguintes estruturas:
 <br><br> 
 
 
-**3.** Extras:
-
+* Extras:
+<br>
 Algumas implementações receberão pontuações extras caso o site seja implementado com, ou possua:
 
 -	Boas práticas em acessibilidade
@@ -74,9 +74,9 @@ Algumas implementações receberão pontuações extras caso o site seja impleme
      
 <br><br>
 
-**4.** Entrega:
+* Entrega:
 
-    -	Até quinta-feira dia 03/09/2020 às 8:00
-    -	Apresentação 20 minutos por grupo
-    -	Enviar o endereço do repositório do Git
-    -	Se publicado no Heroku, enviar o link também.
+-	Até quinta-feira dia 03/09/2020 às 8:00
+-	Apresentação 20 minutos por grupo
+-	Enviar o endereço do repositório do Git
+-	Se publicado no Heroku, enviar o link também.
