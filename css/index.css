@@ -6,12 +6,23 @@
     #navegacao li {
         padding-right: 3%;
         padding-left: 3%;
-        display: inline;
+        display: inline-block;
+        
+        
     }
+
+    #navegacao ul {
+        text-align: center;
+        align-content: center;
+        align-items: center;
+      
+    }
+
 
 
     body {
         font-size: 20px;
+        width: 100%;
     }
 
     .departamentos li:hover ul {
@@ -81,29 +92,34 @@
 
 
 
-    @media (max-width: 575px) {}
-
     @media (max-width: 575px) {
         h1 {
             text-align: center;
             margin-right: 0;
         }
 
-        #navegacao li:first-child {
-            /* margin-left: -20%; */
+        #navegacao{
+            width: 100%;
+            position: static;
             text-align: center;
+            align-content: center;
+            align-items: center;
+            
         }
 
-        #navegacao li:last-child {
-            /* margin-right: -20%; */
+        #navegacao ul {
+            padding-inline-start: 0%;
             text-align: center;
+            align-content: center;
+            align-items: center;
         }
-
 
         .he2 nav {
             align-content: center;
             text-align: center;
         }
+
+        
 
         .he2 {
             align-content: center;
@@ -129,7 +145,7 @@
 
     }
 
-    /* teste de alinhamento */
+    
 
 
 
