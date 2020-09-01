@@ -1,7 +1,7 @@
-var banners = ["img/ELETRODOM/ELETRODOM/fogao_dako.jpg", "img/ELETRODOM/ELETRODOM/geladeira_brastempo.jpg", "img/ELETRODOM/ELETRODOM/liquidificador_reverse.jpg", "img/ELETRODOM/ELETRODOM/mixer_wallita.jpg"];
+var banners = ["img/Carrossel/01.jpg", "img/Carrossel/02.jpg", "img/Carrossel/03.jpg"];
 var bannerAtual = 0;
 function trocaBanner() {
-    if(bannerAtual > 3){
+    if(bannerAtual > 2){
         bannerAtual = 0;
     }
     document.querySelector('.banner-destaque img').src = banners[bannerAtual];

@@ -1,14 +1,13 @@
     .banner-destaque {
         float: right;
         position: static;
+        margin-bottom: 3%;
     }
 
     #navegacao li {
         padding-right: 3%;
         padding-left: 3%;
         display: inline-block;
-        
-        
     }
 
     #navegacao ul {
@@ -18,33 +17,28 @@
       
     }
 
-
-
     body {
         font-size: 20px;
         width: 100%;
+        background: linear-gradient(#ffffff, #cecdf5, #9a94f0);
     }
 
-    .departamentos li:hover ul {
-        display: block;
+    .corpo{
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
-
-    .departamentos li ul {
-        display: none;
-
+    #idcarrosel img{
+        max-width: 100%;
     }
 
-    .departamentos nav {
-        left: -18%;
+    .departamentos figcaption{
+        color: black;
+        margin-bottom: 4%;
     }
 
-    .departamentos {
-        margin-left: 5%;
-        float: left;
-        margin-right: 10px;
-        width: 230px;
-
+    .departamentos img{
+        max-width: 100%;
     }
 
     header h1 {
@@ -52,15 +46,89 @@
         position: relative;
         text-align: center;
         align-content: center;
+        
+    }
 
-
+    header img{
+        max-width: 100%;
     }
 
     /* contato */
-    #divcontato {
-        float: right;
+    #divcontato{
+        align-content: center;
+    }
+    #divcontato a{
+        margin-left: 15%;
+    }
+    #divcontato a:last-child{
+        margin: auto;
+    }
+    textarea {
+        box-sizing: border-box;
+        width: 100%;
+    }
+    .email{
+        margin: auto;
+    }
+    #menu ul{
+        padding-left: 0;
+    }
+    #menu ul li{
+        padding-right: 5%;
     }
 
+#painel-geral{
+    background: linear-gradient(#101E41, #1A316B, #22418F, #13244F, #0C1733);
+}
+#painel-geral p{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #cecdf5;
+}
+#painel-geral img{
+    max-width: 100%;
+}
+
+.fotos img{
+    transition: 0.3s ease-out;
+}
+
+.fotos img:hover{
+    transition: 0.3s ease-in;
+    transform:	scale(1.2) rotate(-5deg);
+}
+
+#painel-geral figcaption{
+    font-weight: bold;
+    color:#cecdf5;
+}
+
+footer{
+    background-color: #101e42;
+    clear:	both;
+    margin-top: 2%;
+}
+#rodape{
+    position: relative;
+    color: #94a6d3;
+}
+
+#rodape img{
+    max-width: 100%;
+}
+
+#rodape ul li{
+    display: inline;
+}
+
+#rodape ul li img{
+    top: 20%;
+}
+
+#rodape p{
+    text-align: center;
+}
 
     /* quem somos  */
 
@@ -145,9 +213,30 @@
 
     }
 
+    /* Login */
+
+.loginbtn{
+    position: relative;
+    text-align: center;
+}
+     
+.he2login{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+    
     
 
-
+    /* Produtos */
+.container-fluid ol{
+    list-style-type: none;
+}
+.container-fluid{
+    max-block-size: 100%;
+}
+.container-fluid figure{
+    margin-top: 3%;
+}
 
     .container {
         float: left;

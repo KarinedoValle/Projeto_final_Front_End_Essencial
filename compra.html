@@ -45,8 +45,7 @@
                 <div class="form-group">
                     <label for="cpf">CPF</label>
                     <!-- <input type="text" class="form-control" id="cpf" name="cpf"> -->
-                    <input type="text" required="true" class="form-control" id="cpf" name="cpf"
-                        placeholder="000.000.000-00">
+                    <input type="text" required="true" class="form-control" id="cpf" name="cpf"  pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="000.000.000-00">
                 </div>
         </div>
         </fieldset>
@@ -86,6 +85,19 @@
     </form>
     </div>
     </div>
+
+    <footer>
+        <div id="rodape" class="container-fluid align-items-center text-center">
+            <div class="row">
+                <div class="col-md-2 ">
+                    <img src="img/logo-hero.png" alt="Logo da Hero">
+                </div>
+                <div class="col-md-8">
+                    <p id="copy">&copy; Copyright Hero </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>

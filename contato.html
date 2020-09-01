@@ -11,72 +11,96 @@
 </head>
 
 <body>
-    
-<header class = "he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">
-    <h1><a href="index.html"><img src="img/logo-hero.png" alt="Logo da Hero Company"></a></h1>
-</header>
 
-    <nav id= "navegacao" class = "he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">
+    <header
+        class="he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">
+        <h1><a href="index.html"><img src="img/logo-hero.png" alt="Logo da Hero Company"></a></h1>
+    </header>
+
+    <nav id="navegacao"
+        class="he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">
         <ul>
             <li><a href="quem-somos.html">Quem somos</a></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="contato.html">Contato</a></li>
         </ul>
     </nav>
-    <h1 class = "he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">Contato</h1>
+    <h1
+        class="he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">
+        Contato</h1>
 
 
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni quod fugit animi, repellendus labore sint deserunt
         iusto ad asperiores ipsa eum obcaecati rerum architecto cum illo at veniam non vel.</p>
-    
-        <div class = "col-sm-12 col-md-6 col-lg-6 col-xl-6" id="divcontato">
-            
-            <p>Siga-nos nas redes sociais:</p>
-                <a target="_blank" href="https://github.com/mariaclarabarbosa">Maria Clara Barbosa</a>, 
-                <a target="_blank" href="https://github.com/KarinedoValle">Karine do Valle</a>, 
-               <a target="_blank" href="https://github.com/wennycampos">Wenny Campos</a>, 
-               <a target="_blank" href="https://github.com/lfcgranja">Luis Felipe Granja</a> e 
-               <a target="_blank" href="https://github.com/ThiagoProbst">Thiago Probst</a>.
-            
-            <p>Endereço para a nossa sede: <a target="_blank" href="https://www.google.com.br/maps/place/Parque+Tecnol%C3%B3gico+Regi%C3%A3o+Serrana/@-22.5321073,-43.2113901,17z/data=!3m1!4b1!4m5!3m4!1s0x990854afe3849f:0xafd20246b768238a!8m2!3d-22.5321123!4d-43.2092014">Hero Company</a>.</p>
-            </div>
 
-    <!-- colocar um formulario para que entrem em contato aqui -->
-    <form class="col-md-8 col-lg-12	col-xl-9">
+    <div class="container-fluid">
         <div class="row">
-            <fieldset class="col-lg-12">
-                <legend>Fale conosco.</legend>
-                <div class="form-group col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                    <label for="nome">Nome completo</label>
-                    <!-- <input type="text" class="form-control" id="nome" name="nome"> -->
-                    <input type="text" required="true" class="form-control" id="nome" name="nome" autofocus>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <div class="input-group-prepend col-sm-12 col-md-12 col-lg-12 col-xl-12">
-                        <span class="input-group-text">@</span>
-                        <!-- <input type="email" class="form-control" id="email" name="email"> -->
-                        <input type="email" class="form-control" required = "true" id="email" name="email"
-                            placeholder="email@exemplo.com">
-                    </div>
-                </div>
+            <div class="col-md-6">
+                <form>
+                    <fieldset>
+                        <legend>Fale conosco.</legend>
+                        <div>
+                            <label for="nome">Nome completo</label>
+                            <!-- <input type="text" class="form-control" id="nome" name="nome"> -->
+                            <input type="text" required="true" class="form-control" id="nome" name="nome" autofocus>
+                        </div>
+                        <div class="form-group email">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" required="true" id="email" name="email"
+                                placeholder="email@exemplo.com">
+                        </div>
 
-                <div class="form-group">
-                    <label for=contato></label>
-                    <textarea name="contato" id="contato" class = "col-sm-12 col-md-12 col-lg-12 col-xl-12" required = "true"  cols="58" rows="10" placeholder="Digite sua mensagem."></textarea>
+                        <div class="form-group">
+                            <label for=contato></label>
+                            <textarea name="contato" id="contato" required="true" cols="65" rows="10"
+                                placeholder="Digite sua mensagem."></textarea>
 
+                        </div>
+                    </fieldset>
+                    <button type="submit" class="btn btn-primary btn-lg">
+                        <span class="oi	oi-thumb-up"></span>
+                        Enviar
+                    </button>
+
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div id="divcontato">
+                    <p>
+                        Siga-nos nas redes sociais:
+                    </p>
+                    <a target="_blank" href="https://github.com/KarinedoValle"><img src="img/icone git.png"
+                            alt="github"> Karine do Valle</a><br><br>
+                    <a target="_blank" href="https://github.com/mariaclarabarbosa"><img src="img/icone git.png"
+                            alt="github"> Maria Clara Barbosa</a><br><br>
+                    <a target="_blank" href="https://github.com/wennycampos"><img src="img/icone git.png" alt="github">
+                        Wenny Campos</a><br><br>
+                    <a target="_blank" href="https://github.com/lfcgranja"><img src="img/icone git.png" alt="github">
+                        Luis Felipe Granja</a><br><br>
+                    <a target="_blank" href="https://github.com/ThiagoProbst"><img src="img/icone git.png" alt="github">
+                        Thiago Probst</a><br><br>
+
+                    <p>
+                        Endereço para a nossa sede: <a target="_blank"
+                            href="https://www.google.com.br/maps/place/Parque+Tecnol%C3%B3gico+Regi%C3%A3o+Serrana/@-22.5321073,-43.2113901,17z/data=!3m1!4b1!4m5!3m4!1s0x990854afe3849f:0xafd20246b768238a!8m2!3d-22.5321123!4d-43.2092014">Hero
+                            Company</a>.
+                    </p>
                 </div>
+            </div>
         </div>
-    </fieldset>
-        <button type="submit" class="btn	btn-primary 	btn-lg">
-            <span class="oi	oi-thumb-up"></span>
-            Enviar
-        </button>
-        
-    </form>
     </div>
-    </div>
-
+    <footer>
+        <div id="rodape" class="container-fluid align-items-center text-center">
+            <div class="row">
+                <div class="col-md-2 ">
+                    <img src="img/logo-hero.png" alt="Logo da Hero">
+                </div>
+                <div class="col-md-8">
+                    <p id="copy">&copy; Copyright Hero </p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 </body>
 
