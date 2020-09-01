@@ -1,15 +1,14 @@
-    .carousel-item {
-        width: 100%;
-        height: auto;
-        /* dar zoom quando passa o mouse */
+    .banner-destaque {
+        float: right;
+        position: static;
     }
 
-    #carrosel {
-
-        float: left;
-        left: 10%;
-
+    #navegacao li {
+        padding-right: 3%;
+        padding-left: 3%;
+        display: inline;
     }
+
 
     body {
         font-size: 20px;
@@ -37,11 +36,6 @@
 
     }
 
-    nav li {
-        display: inline;
-        padding-top: 2% 2% 2% 2%;
-    }
-
     header h1 {
         display: block;
         position: relative;
@@ -51,6 +45,7 @@
 
     }
 
+    /* contato */
     #divcontato {
         float: right;
     }
@@ -67,7 +62,6 @@
 
     }
 
-    /* teste de alinhamento */
     header {
         width: 100%;
         position: static;
@@ -87,12 +81,24 @@
 
 
 
+    @media (max-width: 575px) {}
 
     @media (max-width: 575px) {
         h1 {
             text-align: center;
             margin-right: 0;
         }
+
+        #navegacao li:first-child {
+            /* margin-left: -20%; */
+            text-align: center;
+        }
+
+        #navegacao li:last-child {
+            /* margin-right: -20%; */
+            text-align: center;
+        }
+
 
         .he2 nav {
             align-content: center;
@@ -115,44 +121,32 @@
         .text-sm-center {
             text-align: center !important;
         }
+
+        .banner-destaque {
+            text-align: center;
+            position: static;
+        }
+
     }
 
     /* teste de alinhamento */
 
-    .pause,
-    .play {
-        display: block;
-        position: absolute;
-        right: 15px;
-        top: 15px;
+
+
+    .container {
+        float: left;
+        align-content: center;
+        text-align: center;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-bottom: 2%;
+        width: 50%;
     }
 
-    .pause {
-        border-left: 10px solid #900;
-        border-right: 10px solid #900;
-        height: 30px;
-        width: 5px;
+    .container li {
+        display: inline-block;
+        vertical-align: top;
+        width: 45%;
+        margin: 2%;
+        padding-bottom: 10%;
     }
-
-    .play {
-        border-left: 25px solid #900;
-        border-bottom: 15px solid transparent;
-        border-top: 15px solid transparent;
-    }
-
-.container{
-    float: left;
-    align-content: center;
-    text-align: center;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 2%;
-    width: 50%;
-}
-.container li{
-    display: inline-block;
-    vertical-align: top;
-    width: 45%;
-    margin: 2%;
-    padding-bottom: 10%;
-}

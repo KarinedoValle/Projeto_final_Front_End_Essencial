@@ -12,18 +12,26 @@
 <body>
 
     <header class = "he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">
-        <h1><img src="/img/logo-hero.png" alt="Logo da Hero Company"></h1>
+        <h1><a href="index.html"><img src="/img/logo-hero.png" alt="Logo da Hero Company"></a></h1>
     </header>
     
-        <nav class = "he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">
+        <nav id= "navegacao" class = "he2 align-items-center text-left text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">
             <ul>
                 <li><a href="quem-somos.html">Quem somos</a></li>
-                <li><a href="index.html">Produtos</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
 
-    <section class = "departamentos">
+        <!-- carrosel -->
+    <section class = "banner-destaque col-12 col-sm-4 col-md-6 col-lg-6 col-xl-2">
+        <div id="idcarrosel" class="carousel" data-ride="carousel">
+            <figure><img src="/img/ELETRODOM/ELETRODOM/mixer_wallita.jpg" alt="Imagem em branco"></figure>
+            <a  href="#"  id = "btn" class="pause"></a>
+          </div>
+        </section>
+
+    <section class = "departamentos col-12 col-sm-6 col-md-6 col-lg-6 col-xl-12">
         <h5>Departamentos</h5>
 
         <nav>
@@ -84,13 +92,7 @@
         
     </section>
 
-    <!-- carrosel -->
-    <section class = "banner-destaque">
-        <div id="idcarrosel" class="carousel" data-ride="carousel">
-            <figure><img src="/img/branco.jpg" alt="Imagem em branco"></figure>
-            <a	href="#"  id = "btn" class="pause"></a>
-          </div>
-        </section>
+    
 
 </body>
 <script	type="text/javascript" src="js/banner.js"></script>
