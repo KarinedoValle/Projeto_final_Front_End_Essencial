@@ -197,6 +197,9 @@ h2{
     max-width: 100%;
 }
 
+.card{
+}
+
 @media (max-width: 575px) {
     h1 {
         text-align: center;
