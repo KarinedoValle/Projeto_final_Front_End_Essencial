@@ -10,27 +10,15 @@ let login = document.getElementById("loginbtn");
 let compra = document.getElementsByClassName("btncompra");
 
 compra.onclick = () => {
+   
     let imagem = document.getElementsByClassName("imgcompra").innerHTML;
     let descricao = document.getElementsByClassName("descricaocompra");
     login(imagem, descricao);
 
 }
 
-function login(imagem, descricao) {
-
-    let email = document.getElementById("email").value;
-    let senha = document.getElementById("senha").value;
-
-    if(email == 0){
-        alert("Por favor, insira seu e-mail.")
-    }
-    if(senha == 0){
-        alert("Por favor, insira sua senha.")
-    }
-
-    let usuario = buscaUsuario(email, senha);
-    
-
+login.onclick = () => {
+    login.style.background = 'red';
     if(usuario.length>0){
         document.getElementById("saudacao").innerHTML = `Olá, ${usuario[0].nome}!`;
         setTimeout(() => {
@@ -39,6 +27,25 @@ function login(imagem, descricao) {
 
     } else {
         alert("Login inválido!")
+}
+    
+
+function login(imagem, descricao) {
+
+    let email = document.getElementById("email").value;
+    let senha = document.getElementById("senha").value;
+
+    if(email.value.length == 0){
+        alert("Por favor, insira seu e-mail.")
+    }
+    if(senha.value.length == 0){
+        alert("Por favor, insira sua senha.")
+    }
+
+    let usuario = buscaUsuario(email, senha);
+    
+
+    
     }
 
     // //tentando inserir a imagem na página
@@ -73,3 +80,4 @@ let usuarios = [{nome: "Karine", email: "karine@karinemail.com", senha: "karines
 return usuarios.filter(function(usuario){return usuario.email == email && usuario.senha == senha})
 
 }
+
