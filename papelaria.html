@@ -10,9 +10,7 @@
 <body>
 
     <header class = "he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">
-        <h1><a href="index.html"><img src="img/logo-hero.png" alt="Logo da Hero Company"></a></h1>
-    </header>
-    
+        <a href="index.html"><img src="img/logo-hero.png" alt="Logo da Hero Company"></a>
         <nav id= "navegacao" class = "he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">
             <ul>
                 <li><a href="quem-somos.html">Quem somos</a></li>
@@ -20,71 +18,82 @@
                 <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
-        <h1 class = "he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">Papelaria</h1>
+    </header>
+    
+        <h1 id="h1" class = "he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">Papelaria</h1>
 
         <div class="container-fluid align-items-center text-center">
             <div class="row">
                 <div class="col-sm-6 col-md-4">
                     <ol>
                         <li>
-                            <figure>
-                                <img src="img/PAPELARIA/PAPELARIA/borracha_braba.jpg" alt="Borracha técnica">
-                                <figcaption>Borracha técnica hi-polymer Soft Pentel BT 1 UN. R$ 6,00</figcaption>
-        
-                            </figure>
-                            <a href="login.html">
-                                <button type="button" class="btn btn-primary btn-sm">Comprar!</button>
-                            </a>
+                            <div class="card">
+                                <figure class = "imgcompra">
+                                    <img src="img/PAPELARIA/PAPELARIA/borracha_braba.jpg" alt="Borracha técnica">
+                                </figure>
+                                <h5>Borracha técnica</h5>
+                                <p>Borracha técnica hi-polymer Soft Pentel BT 1 UN.</p>
+                                <p><strong>R$ 6,00</strong></p>
+                                <a href="login.html" class="btn btn-primary">Comprar!</a>
+                            </div>
                         </li>
                         <li>
-                            <figure>
-                                <img src="img/PAPELARIA/PAPELARIA/caderno_pautado.jpg" alt="Caderno pautado">
-                                <figcaption>Caderno pautado 96 folhas capa dura. R$ 10,00</figcaption>
-        
-                            </figure>
-                            <a href="login.html">
-                                <button type="button" class="btn btn-primary btn-sm">Comprar!</button>
-                            </a>
-                        </li>
-                    </ol>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <ol>
-                        <li>
-                            <figure>
-                                <img src="img/PAPELARIA/PAPELARIA/papel_cason.jpg" alt="Bloco desenho">
-                                <figcaption>Bloco desenho A2 branco 224g 66667043 Canson CX 1 UN. R$ 62,00</figcaption>
-                            </figure>
-                            <a href="login.html">
-                                <button type="button" class="btn btn-primary btn-sm">Comprar!</button>
-                            </a>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="img/PAPELARIA/PAPELARIA/caneta_esfer.jpg" alt="Caneta esferográfica ">
-                                <figcaption>Caneta esferográfica 0.7mm Cristal Ultra Fine az/pt/vm 902487 Bic BT 3 UN BT 3 UN. R$ 6,40</figcaption>
-                            </figure>
-                            <a href="login.html">
-                                <button type="button" class="btn btn-primary btn-sm">Comprar!</button>
-                            </a>
+                            <div class="card">
+                                <figure class = "imgcompra">
+                                    <img src="img/PAPELARIA/PAPELARIA/caderno_pautado.jpg" alt="Caderno pautado">
+                                </figure>
+                                <h5>Caderno pautado</h5>
+                                <p>Caderno pautado 96 folhas capa dura.</p>
+                                <p><strong>R$ 10,00</strong></p>
+                                <a href="login.html" class="btn btn-primary">Comprar!</a>
+                            </div>
                         </li>
                     </ol>
                 </div>
                 <div class="col-sm-6 col-md-4">
                     <ol>
                         <li>
-                            <figure>
-                                <img src="img/PAPELARIA/PAPELARIA/corretivo_oval.jpg" alt="Corretivo em fita">
-                                <figcaption>Corretivo em fita 5mmx6m folha Oval BT 1 UN. R$ 11,40</figcaption>
-                            </figure>
-                            <a href="login.html">
-                                <button type="button" class="btn btn-primary btn-sm">Comprar!</button>
-                            </a>
+                            <div class="card">
+                                <figure class = "imgcompra">
+                                    <img src="img/PAPELARIA/PAPELARIA/papel_cason.jpg" alt="Bloco desenho">
+                                </figure>
+                                <h5>Bloco desenho</h5>
+                                <p>Bloco desenho A2 branco 224g 66667043 Canson CX 1 UN.</p>
+                                <p><strong>R$ 62,00</strong></p>
+                                <a href="login.html" class="btn btn-primary">Comprar!</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card">
+                                <figure class = "imgcompra">
+                                    <img src="img/PAPELARIA/PAPELARIA/caneta_esfer.jpg" alt="Caneta esferográfica">
+                                </figure>
+                                <h5>Caneta esferográfica</h5>
+                                <p>Caneta esferográfica 0.7mm Cristal Ultra Fine az/pt/vm 902487 Bic BT 3 UN BT 3 UN.</p>
+                                <p><strong>R$ 6,40</strong></p>
+                                <a href="login.html" class="btn btn-primary">Comprar!</a>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <ol>
+                        <li>
+                            <div class="card">
+                                <figure class = "imgcompra">
+                                    <img src="img/PAPELARIA/PAPELARIA/corretivo_oval.jpg" alt="Corretivo em fita">
+                                </figure>
+                                <h5>Corretivo em fita</h5>
+                                <p>Corretivo em fita 5mmx6m folha Oval BT 1 UN.</p>
+                                <p><strong>R$ 11,40</strong></p>
+                                <a href="login.html" class="btn btn-primary">Comprar!</a>
+                            </div>
                         </li>
                     </ol>
                 </div>
             </div>
         </div>
+
         <footer>
             <div id="rodape" class="container-fluid align-items-center text-center">
                 <div class="row">

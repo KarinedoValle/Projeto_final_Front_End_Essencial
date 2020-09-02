@@ -10,9 +10,7 @@
 <body>
 
     <header class = "he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">
-        <h1><a href="index.html"><img src="img/logo-hero.png" alt="Logo da Hero Company"></a></h1>
-    </header>
-    
+        <a href="index.html"><img src="img/logo-hero.png" alt="Logo da Hero Company"></a>
         <nav id= "navegacao" class = "he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">
             <ul>
                 <li><a href="quem-somos.html">Quem somos</a></li>
@@ -20,69 +18,82 @@
                 <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
-        <h1 class = "he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">Eletrodomésticos</h1>
+    </header>
+    
+        <h1 id="h1" class = "he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">Eletrodomésticos</h1>
 
         <div class="container-fluid align-items-center text-center">
             <div class="row">
                 <div class="col-sm-6 col-md-4">
                     <ol>
                         <li>
-                            <figure class = "imgcompra">
-                                <img src="img/ELETRODOM/ELETRODOM/fogao_dako.jpg" alt="Fogão Dako">
-                                <figcaption class = "descricaocompra">Fogão, quatro bocas, uso doméstico. R$ 499,00</figcaption>
-                            </figure>
-                            <a href="login.html">
-                                <button type="button" class="btncompra btn btn-primary btn-sm">Comprar!</button>
-                            </a>
+                            <div class="card">
+                                <figure class = "imgcompra">
+                                    <img src="img/ELETRODOM/ELETRODOM/fogao_dako.jpg" alt="Fogão Dako">
+                                </figure>
+                                <h5>Fogão Dako</h5>
+                                <p>Fogão, quatro bocas, uso doméstico.</p>
+                                <p><strong>R$ 499,00</strong></p>
+                                <a href="login.html" class="btn btn-primary">Comprar!</a>
+                            </div>
                         </li>
                         <li>
-                            <figure>
-                                <img src="img/ELETRODOM/ELETRODOM/geladeira_brastempo.jpg" alt="Geladeira Brastemp">
-                                <figcaption>Geladeira inox, duas portas frost-free Brastemp, 110V. R$ 1.900,00</figcaption>
-                            </figure>
-                            <a href="login.html">
-                                <button type="button" class="btn btn-primary btn-sm">Comprar!</button>
-                            </a>
-                        </li>
-                    </ol>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <ol>
-                        <li>
-                            <figure>
-                                <img src="img/ELETRODOM/ELETRODOM/liquidificador_reverse.jpg" alt="Liquidificador Reverse">
-                                <figcaption>Liquidificador, três lâminas, reverse. R$ 399,00</figcaption>
-                            </figure>
-                            <a href="login.html">
-                                <button type="button" class="btn btn-primary btn-sm">Comprar!</button>
-                            </a>
-                        </li>
-                        <li>
-                            <figure>
-                                <img src="img/ELETRODOM/ELETRODOM/mixer_wallita.jpg" alt="Mixer Wallita">
-                                <figcaption>Mixer com kit de lâminas, cor preta. R$ 199,00</figcaption>
-                            </figure>
-                            <a href="login.html">
-                                <button type="button" class="btn btn-primary btn-sm">Comprar!</button>
-                            </a>
+                            <div class="card">
+                                <figure class = "imgcompra">
+                                    <img src="img/ELETRODOM/ELETRODOM/geladeira_brastempo.jpg" alt="Geladeira Brastemp">
+                                </figure>
+                                <h5>Geladeira Brastemp</h5>
+                                <p>Geladeira inox, duas portas frost-free Brastemp, 110V.</p>
+                                <p><strong>R$ 1.900,00</strong></p>
+                                <a href="login.html" class="btn btn-primary">Comprar!</a>
+                            </div>
                         </li>
                     </ol>
                 </div>
                 <div class="col-sm-6 col-md-4">
                     <ol>
                         <li>
-                            <figure>
-                                <img src="img/ELETRODOM/ELETRODOM/aspirador_soaspiradormsm.jpg" alt="Aspirador de pó">
-                                <figcaption>Aspirador de pó, 500W. R$ 279,90</figcaption>
-                            </figure>
-                            <a href="login.html">
-                                <button type="button" class="btn btn-primary btn-sm">Comprar!</button>
-                            </a>
+                            <div class="card">
+                                <figure class = "imgcompra">
+                                    <img src="img/ELETRODOM/ELETRODOM/liquidificador_reverse.jpg" alt="Liquidificador Reverse">
+                                </figure>
+                                <h5>Liquidificador Reverse</h5>
+                                <p>Liquidificador, três lâminas, reverse.</p>
+                                <p><strong>R$ 399,00</strong></p>
+                                <a href="login.html" class="btn btn-primary">Comprar!</a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="card">
+                                <figure class = "imgcompra">
+                                    <img src="img/ELETRODOM/ELETRODOM/mixer_wallita.jpg" alt="Mixer Wallita">
+                                </figure>
+                                <h5>Mixer Wallita</h5>
+                                <p>Mixer com kit de lâminas, cor preta.</p>
+                                <p><strong>R$ 199,00</strong></p>
+                                <a href="login.html" class="btn btn-primary">Comprar!</a>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <ol>
+                        <li>
+                            <div class="card">
+                                <figure class = "imgcompra">
+                                    <img src="img/ELETRODOM/ELETRODOM/aspirador_soaspiradormsm.jpg" alt="Aspirador de pó">
+                                </figure>
+                                <h5>Aspirador de pó</h5>
+                                <p>Aspirador de pó, 500W.</p>
+                                <p><strong>R$ 279,90</strong></p>
+                                <a href="login.html" class="btn btn-primary">Comprar!</a>
+                            </div>
                         </li>
                     </ol>
                 </div>
             </div>
         </div>
+
         <footer>
             <div id="rodape" class="container-fluid align-items-center text-center">
                 <div class="row">
