@@ -218,6 +218,7 @@ footer{
 .loginbtn{
     position: relative;
     text-align: center;
+    --indigo: #61adf5;
 }
      
 .he2login{

@@ -27,13 +27,13 @@
                 <div class="col-sm-6 col-md-4">
                     <ol>
                         <li>
-                            <figure class = "imgcompra">
-                                <img src="img/ELETRODOM/ELETRODOM/fogao_dako.jpg" alt="Fogão Dako">
+                            <figure>
+                                <img id = "imgcompra" src="img/ELETRODOM/ELETRODOM/fogao_dako.jpg" alt="Fogão Dako">
                                 <figcaption class = "descricaocompra">Fogão, quatro bocas, uso doméstico. R$ 499,00</figcaption>
                             </figure>
-                            <a href="login.html">
-                                <button type="button" class="btncompra btn btn-primary btn-sm">Comprar!</button>
-                            </a>
+                            <!-- <a href="login.html"> -->
+                                <button id = "btncompra" type="button"  class="btncompra btn btn-primary btn-sm" onclick = "clicarCompra(499.00)">Comprar!</button>
+                            <!-- </a> -->
                         </li>
                         <li>
                             <figure>
@@ -41,7 +41,7 @@
                                 <figcaption>Geladeira inox, duas portas frost-free Brastemp, 110V. R$ 1.900,00</figcaption>
                             </figure>
                             <a href="login.html">
-                                <button type="button" class="btn btn-primary btn-sm">Comprar!</button>
+                                <button id = "btncompra" type="button" class="btn btn-primary btn-sm" onclick = "clicarCompra(1900.00)">Comprar!</button>
                             </a>
                         </li>
                     </ol>
@@ -96,4 +96,5 @@
             </div>
         </footer>
 </body>
+<script type="text/javascript" src="js/script.js"></script>
 </html>
