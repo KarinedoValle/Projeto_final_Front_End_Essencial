@@ -10,80 +10,107 @@
 </head>
 
 <body>
-    <header class = "he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">
+    <header
+        class="he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">
         <h1><a href="index.html"><img src="img/logo-hero.png" alt="Logo da Hero Company"></a></h1>
     </header>
-    
-        <nav id= "navegacao" class = "he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">
-            <ul>
-                <li><a href="quem-somos.html">Quem somos</a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contato.html">Contato</a></li>
-            </ul>
-        </nav>
-        <h1 class = "he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">Estamos quase lá!</h1>
-    
-    <form class="col-md-8 	col-xl-9">
+
+    <nav id="navegacao"
+        class="he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">
+        <ul>
+            <li><a href="quem-somos.html">Quem somos</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <h1
+        class="he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">
+        Estamos quase lá!
+    </h1>
+
+    <div class="container-fluid">
         <div class="row">
-            <fieldset class="col-lg-6">
-                <legend>Dados pessoais</legend>
-                <div class="form-group">
-                    <label for="nome">Nome completo</label>
-                    <!-- <input type="text" class="form-control" id="nome" name="nome"> -->
-                    <input type="text" required="true" class="form-control" id="nome" name="nome" autofocus>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <div class="input-group-prepend">
-                        <span class="input-group-text">@</span>
-                        <!-- <input type="email" class="form-control" id="email" name="email"> -->
-                        <input type="email" class="form-control" id="email" name="email"
-                            placeholder="email@exemplo.com">
+            <div class="col-md-6">
+                <form>
+                    <fieldset>
+                        <legend>Dados pessoais</legend>
+                        <div class="form-group">
+                            <label for="nome">Nome completo</label>
+                            <!-- <input type="text" class="form-control" id="nome" name="nome"> -->
+                            <input type="text" required="true" class="form-control" id="nome" name="nome" autofocus>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">@</span>
+                                <!-- <input type="email" class="form-control" id="email" name="email"> -->
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="email@exemplo.com">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="cpf">CPF</label>
+                            <!-- <input type="text" class="form-control" id="cpf" name="cpf"> -->
+                            <input type="text" required="true" class="form-control" id="cpf" name="cpf"
+                                pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="000.000.000-00">
+                        </div>
+                        <legend>Cartão de crédito</legend>
+                        <div class="form-group">
+                            <div class="input-group	mb-3">
+                                <div class="input-group-prepend">
+                                    <label class="input-group-text" for="bandeira-cartao">Bandeira</label>
+                                </div>
+                                <select class="custom-select" id="bandeira-cartao">
+                                    <option disabled selected>Selecione uma opção...</option>
+                                    <option value="master">MasterCard</option>
+                                    <option value="visa">VISA</option>
+                                    <option value="amex">American Express</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="validade-cartao">Validade</label>
+                            <input type="month" class="form-control" id="validade-cartao" name="validade-cartao">
+                        </div>
+                        <div class="form-group	custom-control	custom-checkbox">
+                            <input type="checkbox" class="custom-control-input" id="newsletter" value="sim" checked>
+                            <label class="custom-control-label" for="newsletter">
+                                Quero receber informações da Hero Company por e-mail
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg">
+                            <span class="oi	oi-thumb-up"></span>
+                            Confirmar Pedido
+                        </button>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div class="card-body">
+                    <dl>
+                        <dt>Produto</dt>
+                        <dd id = "produto"></dd>
+                        <dt>Descrição</dt>
+                        <dd>Blabla</dd>
+                        <dt>Preço</dt>
+                        <dd	id="preco">R$ 129,90</dd>
+                    </dl>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="qtd">Quantidade:</label>
+                            <input type="number" id="qtd" min="1" max="99" value="1" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="total">Total:</label>
+                            <output	for="qtd preco" id="total" class="form-control">
+                                R$	129,90
+                            </output>
+                        </div>
                     </div>
                 </div>
-
-                <div class="form-group">
-                    <label for="cpf">CPF</label>
-                    <!-- <input type="text" class="form-control" id="cpf" name="cpf"> -->
-                    <input type="text" required="true" class="form-control" id="cpf" name="cpf"  pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="000.000.000-00">
-                </div>
-        </div>
-        </fieldset>
-        <fieldset class="col-lg-6">
-            <legend>Cartão de crédito</legend>
-            <div class="form-group">
-                <div class="input-group	mb-3">
-                    <div class="input-group-prepend">
-                        <label class="input-group-text" for="bandeira-cartao">Bandeira</label>
-                    </div>
-                    <select class="custom-select" id="bandeira-cartao">
-                        <option disabled selected>Selecione uma opção...</option>
-                        <option value="master">MasterCard</option>
-                        <option value="visa">VISA</option>
-                        <option value="amex">American Express</option>
-                    </select>
-                </div>
             </div>
-            <div class="form-group">
-                <label for="validade-cartao">Validade</label>
-                <input type="month" class="form-control" id="validade-cartao" name="validade-cartao">
-            </div>
-        </fieldset>
         </div>
-        <div class="form-group	custom-control	custom-checkbox">
-            <input type="checkbox" class="custom-control-input" id="newsletter" value="sim" checked>
-            <label class="custom-control-label" for="newsletter">
-                Quero receber informações da Hero Company por e-mail
-            </label>
-        </div>
-
-        <button type="submit" class="btn	btn-primary 	btn-lg">
-            <span class="oi	oi-thumb-up"></span>
-            Confirmar Pedido
-        </button>
-
-    </form>
-    </div>
     </div>
 
     <footer>
@@ -98,6 +125,7 @@
             </div>
         </div>
     </footer>
+    <script	type="text/javascript" src="js/login.js"></script>
 </body>
 
 </html>

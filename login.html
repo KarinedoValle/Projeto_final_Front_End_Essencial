@@ -12,6 +12,7 @@
 <body>
     <header class = "he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">
         <h1><a href="index.html"><img src="img/logo-hero.png" alt="Logo da Hero Company"></a></h1>
+        <div id = "saudacao" ><p></p></div>
     </header>
     
         <nav id= "navegacao" class = "he2 align-items-center text-center text-md-center text-sm-center text-lg-center text-xl-center justify-content-sm-center">
@@ -35,7 +36,7 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text">@</span>
                             <!-- <input type="email" class="form-control" id="email" name="email"> -->
-                            <input type="email" class="form-control" id="email" name="email"
+                            <input type="email" class="form-control" required = "true" id="email" name="email"
                                 placeholder="email@exemplo.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
                         </div>
                     </div>
@@ -43,13 +44,13 @@
                     <div class="form-group">
                         <label for="senha">Senha</label>
                         <!-- <input type="text" class="form-control" id="cpf" name="cpf"> -->
-                        <input type="text" required="true" class="form-control" id="senha" name="senha">
+                        <input type="password" required = "true" class="form-control" id="senha" name="senha">
                     </div>
             </div>
             </fieldset>
             <div class = "loginbtn" >
                 <a href="compra.html">
-                    <button type="button" class="btn btn-primary btn-lg">
+                    <button id = "loginbtn" type="button" class="btn btn-primary btn-lg">
                     <span class="oi	oi-thumb-up"></span>
                     Enviar
                     </button>
@@ -72,5 +73,5 @@
         </footer>
 
     </body>
-
+    <script type="text/javascript" src="js/login.js"></script>
     </html>
