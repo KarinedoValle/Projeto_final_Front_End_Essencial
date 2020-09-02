@@ -17,6 +17,7 @@ function clicarLogin() {
     }
 }
 
+
 //Funcionando
 function buscaUsuario(email, senha) {
     let usuarios = [{ nome: "Karine", email: "karine@karinemail.com", senha: "karinesenha" },
@@ -53,27 +54,6 @@ function clicarCompra(preco) {
 
 }
 
-//Tentando inserir os valores salvos na página
-// var paginacompra = document.getElementById("bodycompra");
-
-// paginacompra.onload = () => {
-//     var img = window.sessionStorage.getItem('img', imgValor);
-//     var descricao = window.sessionStorage.getItem('descricao', descValor);
-//     var preco = window.sessionStorage.getItem('preco', preco);
-
-//     //informações da página
-//     var imgbranco = document.getElementById("produto");
-//     var descricaobranco = document.getElementById("descricao");
-//     var precobranco = document.getElementById("preco");
-     
-//     imgbranco.InnerHTML = img;
-//     descricaobranco.InnerHTML = descricao;
-//     precobranco.InnerHTML = preco;
-// }
-///
-
-
-    
 
 // compra
 var $input_quantidade = document.querySelector("#qtd");

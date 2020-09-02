@@ -326,7 +326,9 @@ h2{
 
 #saudacao{
     position: static;
+    display: inline;
     float: right;
     font-size: 15px;
     margin-right: 0.5%;
+    color: black;
 }
