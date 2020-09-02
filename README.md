@@ -4,6 +4,7 @@ Projeto final da matéria Front-End Essencial na [Residência de Software](http:
 
 - Feito em grupo com [Maria Clara Barbosa Estrella](https://github.com/mariaclarabarbosa), [Wenny Campos Teixeira](https://github.com/wennycampos), [Luis Felipe Granja](https://github.com/lfcgranja) e [Thiago Probst Coelho Vieira](https://github.com/ThiagoProbst).
 
+- Link para o nosso site publicado [Hero Company](https://herocompany.herokuapp.com/).
 ---------------------------------------------------------------------------------------------------------------------------------------------
 Conteúdo do trabalho:
 
@@ -16,7 +17,7 @@ O grupo poderá escolher qualquer tema para sua página Web como por exemplo: um
 
 Entretanto alguns tópicos apresentados em sala deverão ser utilizados na construção do trabalho e algumas restrições serão passadas para que o trabalho seja aceito como completo.
 
-<br><br>
+<br>
 
 
 * Requisitos mínimos gerais:
@@ -31,7 +32,7 @@ A página deve conter no mínimo a seguinte estrutura:
 
 OBS: Caso o site seja feito em estrutura de onepage (página única), deverá ele conter a estrurura acima citada (homepage, quem somos, o que fazemos e contato) e também os requisitos abaixo.  A sessão home deverá ter altura e largura total da viewport (Dica: Buscar por sessões fullscreen, utilize vh/vw).
 
- <br><br>    
+ <br>    
 
 
 * Requisitos mínimos de funcionalidades:
@@ -53,7 +54,7 @@ A plataforma deve utilizar no mínimo as seguintes estruturas:
     *	Type='email'.
 -	Alterar algum estilo CSS manipulando o DOM.
 
-<br><br> 
+<br>
 
 
 * Extras:
@@ -72,9 +73,8 @@ Algumas implementações receberão pontuações extras caso o site seja impleme
 -	Utilizar arrow function com algum propósito no site
 
      
-<br><br>
-
-* Entrega:
+--------------------------------------------------------------------------------------------------------------------------------------------
+# Requisitos de entrega:
 
     *	Até quinta-feira dia 03/09/2020 às 8:00
     *	Apresentação 20 minutos por grupo
